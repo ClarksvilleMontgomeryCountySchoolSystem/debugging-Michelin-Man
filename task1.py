@@ -21,7 +21,7 @@ def snippet_2():
     total_slices = pizzas * slices_per_pizza
     slices_each = total_slices / people
     print(f"Total slices: {total_slices}")
-    print(f"Slices per person: {slices_each)
+    print(f"Slices per person: {slices_each}")
 
 
 def snippet_3():
@@ -30,7 +30,7 @@ def snippet_3():
     student_name = "Jordan"
     score = 75
     passing_score = 60
-    if score >= passing_score
+    if score >= passing_score:
         result = "passed"
     else:
         result = "did not pass"
@@ -49,7 +49,7 @@ def snippet_4():
         print("Player 1 wins!")
     elif player2_score > player1_score:
         print("Player 2 wins!")
-    elif player1_score = player2_score:
+    elif player1_score == player2_score:
         print("It's a tie!")
 
 
